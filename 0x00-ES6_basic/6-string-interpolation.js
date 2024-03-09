@@ -12,4 +12,4 @@ export default function getSanFranciscoDescription() {
     + `2015, San Francisco proper had a GDP of ${budget.gdp}, and a GDP per `
     + `capita of ${budget.capita}.`
   );
-
+}
