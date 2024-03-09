@@ -1,8 +1,6 @@
-export default function createEmployeesObject(departmentName, employees) {
+createEmployeesObject(departmentName , employees) {
   const obj = {};
-  obj.$departmentName = [];
-  for (let employee of employees) {
-    obj.$departmentName.push(employee);
-  }
-  return obj;
+  obj.$departmentName.push(employee);
+}
+return obj;
 }
